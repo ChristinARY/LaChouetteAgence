@@ -1,37 +1,89 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <!--REQUIRED META TAGS-->
     <meta charset="utf-8" />
-    <title>Contact - La Chouette Agence</title>
-    <meta
-      name="description"
-      content="Page de contact de La Chouette Agence, Entreprise de Web Design basée à Lyon? votre spécialiste de la conception de site web sur Lyon est à l'écoute de tous vos projets. Exposez-nous vos souhaits à l'aide du formulaire, vous serez recontacter dans les meilleurs délais."
-    />
+    <!--Titre de la page-->
+    <title>La Chouette Agence - Entreprise de Web Design - Lyon</title>
+
     <meta
       name="keywords"
-      content="La Chouette Agence, Web Design Lyon, Formulaire Contact, Place Sathonay, Creation Site Web, Rhône-Alpes"
+      content="agence design, lyon, entreprise web design, web design"
     />
-
+    <meta
+      name="description"
+      content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet."
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-    <link rel="stylesheet" type="text/css" href="./css/page2.css" />
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="style.min.css" />
+    <!-- Facebook -->
+    <meta property="fb:app_id" content="123456789" />
+    <meta
+      property="og:url"
+      content="https://christinary.github.io/LaChouetteAgence/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Accueil - La chouette agence" />
+    <meta
+      property="og:image"
+      content="https://christinary.github.io/LaChouetteAgence/img/la-chouette-agence.png"
+    />
+    <meta property="og:image:alt" content="Chouette logo" />
+    <meta
+      property="og:description"
+      content="La chouette agence est une agence de web design, basé à Lyon, qui aide les entreprises à devenir attractives et visibles sur Internet."
+    />
+    <meta property="og:site_name" content="La chouette agence" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="article:author" content="Christin YESSOUFOU" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@la_chouette_agence" />
+    <meta name="twitter:creator" content="@ChristinYESSOU1" />
+    <meta
+      name="twitter:url"
+      content="https://christinary.github.io/LaChouetteAgence/index.html"
+    />
+    <meta name="twitter:title" content="Accueil - La chouette agence" />
+    <meta
+      name="twitter:description"
+      content="La chouette agence est une agence de web design, basé à Lyon, qui aide les entreprises à devenir attractives et visibles sur Internet."
+    />
+    <meta
+      name="twitter:image"
+      content="https://christinary.github.io/LaChouetteAgence/img/la-chouette-agence.png"
+    />
+    <meta name="twitter:image:alt" content="Chouette logo" />
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" type="image/jpg" href="favicon.jpg" />
+    <!-- Local files -->
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg" />
+    <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.min.css" />
     <!--META ROBOTS-->
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
-    <!--FAVICON-->
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-    <!-- Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-163414887-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "UA-163414887-1");
+    </script>
     <!-- Analytics END -->
   </head>
   <body class="light">
@@ -45,14 +97,13 @@
               ><img
                 class="img-clair"
                 src="img/la-chouette-agence.png"
-                alt="lyon web design logo agence web meilleure agence"
+                alt="paris web design logo agence web meilleure agence"
                 height="40"
               />
-              <p id="specialist-contact">
-                Votre agence de Web Design - lyon
-              </p>
             </a>
-
+            <p id="specialist-contact">
+              Votre agence de Web Design - lyon
+            </p>
             <button
               id="nav-toggle"
               type="button"
@@ -174,9 +225,9 @@
           <div class="row">
             <div class="col-sm-12">
               <p class="text-center white">
-                La chouette agence - votre agence web à Lyon, située dans le 1er
-                arrondissement , entre les pentes de la Croix-rousse et le Vieux
-                Lyon.<br />
+                LCA - La chouette agence - votre agence web à Lyon, située dans
+                le 1er arrondissement , entre les pentes de la Croix-rousse et
+                le Vieux Lyon.<br />
               </p>
               <div id="footer-terms">
                 <ul id="terms-of-use">

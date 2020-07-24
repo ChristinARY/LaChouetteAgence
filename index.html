@@ -1,37 +1,90 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <!--REQUIRED META TAGS-->
     <meta charset="utf-8" />
+    <!--Titre de la page-->
+    <title>La Chouette Agence - Entreprise de Web Design - Lyon</title>
+
     <meta
       name="keywords"
-      content="La Chouette Agence,Agence web à Lyon, Conception site web, agence design Lyon,stratégie web,illustrations,conception graphique"
+      content="agence design, lyon, entreprise web design, web design"
     />
     <meta
       name="description"
-      content="La Chouette Agence, Entreprise de Web Design basée à Lyon, mise en place et conseil design, LCA - La Chouette Agence s'occupe de la conception graphique du site internet de votre entreprise. Basée à Lyon, exposez-nous votre projet, nous réaliserons vos souhaits."
+      content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet."
     />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
+
+    <!-- Facebook -->
+    <meta property="fb:app_id" content="123456789" />
+    <meta
+      property="og:url"
+      content="https://christinary.github.io/LaChouetteAgence/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Accueil - La chouette agence" />
+    <meta
+      property="og:image"
+      content="https://christinary.github.io/LaChouetteAgence/img/la-chouette-agence.png"
+    />
+    <meta property="og:image:alt" content="Chouette logo" />
+    <meta
+      property="og:description"
+      content="La chouette agence est une agence de web design, basé à Lyon, qui aide les entreprises à devenir attractives et visibles sur Internet."
+    />
+    <meta property="og:site_name" content="La chouette agence" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="article:author" content="Christin YESSOUFOU" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@la_chouette_agence" />
+    <meta name="twitter:creator" content="@ChristinYESSOU1" />
+    <meta
+      name="twitter:url"
+      content="https://christinary.github.io/LaChouetteAgence/index.html"
+    />
+    <meta name="twitter:title" content="Accueil - La chouette agence" />
+    <meta
+      name="twitter:description"
+      content="La chouette agence est une agence de web design, basé à Lyon, qui aide les entreprises à devenir attractives et visibles sur Internet."
+    />
+    <meta
+      name="twitter:image"
+      content="https://christinary.github.io/LaChouetteAgence/img/la-chouette-agence.png"
+    />
+    <meta name="twitter:image:alt" content="Chouette logo" />
+
     <!--FAVICON-->
     <link rel="shortcut icon" type="image/jpg" href="favicon.jpg" />
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./style.min.css" />
+    <!-- Local files -->
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
-
+    <link rel="stylesheet" type="text/css" href="style.min.css" />
     <!--META ROBOTS-->
     <meta name="robots" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
-    <!--Titre de la page-->
-    <title>La Chouette Agence - Entreprise de Web Design - Lyon</title>
-    <!-- Analytics -->
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-163414887-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-163414887-1");
+    </script>
     <!-- Analytics END -->
-    <!--TWITTER-->
-    <meta name="twitter:title" content="La Chouette Agence" />
   </head>
   <body class="light">
     <!-- PRINCIPAL CONTENEUR -->
@@ -40,15 +93,15 @@
       <header class="bloc bgc-white l-bloc" id="bloc-0">
         <div class="container bloc-sm">
           <nav class="navbar row">
-            <a class="navbar-brand" href="index.html">
-              <img
-                class="img-clair"
-                src="img/la-chouette-agence.png"
-                alt="La Chouette Agence, votre agence de communication web à Lyon"
-                height="40"
-              />
-              <p id="specialist">Votre agence de Web Design - lyon</p></a
-            >
+            <img
+              class="img-clair"
+              src="img/la-chouette-agence.png"
+              alt="LCA, La Chouette Agence, votre agence de communication web à Lyon"
+              height="40"
+            />
+            <p id="specialist">
+              Votre agence de Web Design - lyon
+            </p>
             <button
               id="nav-toggle"
               type="button"
@@ -73,7 +126,6 @@
           </nav>
         </div>
       </header>
-<<<<<<< HEAD
       <main>
         <!-- BLOC1 PRESENTATION-->
         <article
@@ -90,8 +142,8 @@
                   alt="La Chouette Agence, agence de solutions numériques lyonnaise"
                 />
                 <h1 class="text-center hero-bloc-text tc-white">
-                  La Chouette Agence<br />Votre partenaire de solutions
-                  numériques lyonnais
+                  La Chouette Agence<br />Votre partenaire de solutions numériques
+                lyonnais
                 </h1>
                 <div class="text-center">
                   <a
@@ -102,51 +154,6 @@
                     >Contact</a
                   >
                 </div>
-                <p id="introduction">
-                  Le
-                  <a
-                    href="https://fr.wikipedia.org/wiki/Webmarketing"
-                    tabindex="5"
-                    >webmarketing</a
-                  >, ou marketing digital, est un point primordial pour un
-                  <a
-                    href="https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rencement"
-                    tabindex="6"
-                    >référencement</a
-                  >
-                  et une visibilité optimale de votre vitrine internet.
-                </p>
-=======
-      <!-- bloc-0 END -->
-
-      <!-- bloc-1-presentation -->
-      <article
-        class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
-        id="bloc-1-hero"
-      >
-        <header class="container bloc-lg">
-          <div class="row tight-width-whitespace">
-            <div class="col-sm-12">
-              <img
-                src="img/logo.png"
-                class="center-block image-resize-mode logo-clair"
-                width="100"
-                alt="La Chouette Agence, agence de solutions numériques lyonnaise"
-              />
-              <h1 class="text-center hero-bloc-text tc-white">
-                La Chouette Agence<br />Votre partenaire de solutions numériques
-                lyonnais
-              </h1>
-              <div class="text-center">
-                <a
-                  href="contact.html"
-                  class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
-                  id="cta-hero"
-                  tabindex="4"
-                  >Contact</a
-                >
->>>>>>> 6052fd85e2da517abb87e0729156e86af8f10d30
-              </div>
             </div>
           </header>
         </article>
@@ -237,34 +244,18 @@
             <div class="row tight-width-whitespace black-background">
               <div class="col-sm-12">
                 <h2 class="mg-md text-center tc-white">
-                  Notre mission : Aider les entreprises de la région Lyonnaise à
-                  se développer et à connaître le succès. Nous travaillons pour
-                  aider les entreprises locales à attirer de nouveaux clients
-                  .<br />
+                  Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .
                 </h2>
                 <p class="text-center white">
-                  Amoureux de la région Auvergne Rhône-Alpes et de la ville de
-                  Lyon, les collaborateurs de notre agence de communication
-                  mettent à votre disposition toute leur créativité pour
-                  augmenter votre taux de conversion.
-                </p>
-                <p class="text-center white">
-                  Partisans du développement local, notre équipe peut intervenir
-                  tant dans la création de votre site, custom ou s'appuyant sur
-                  un CMS, tant dans l'optimisation d'un matériel existant. Vos
-                  idées, vos projets sont notre leitmotiv. Charte graphique
-                  cohérente, navigation intuitive et adaptative à tous les types
-                  d'interface alliés à un référencement étudié seront des atouts
-                  majeurs dans votre positionnement en premières places des
-                  recherches. Aucunes hésitations,
+                  Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.
                   <br />La Chouette Agence - Votre partenaire du Numerique<br />
                   <a
                     href="contact.html"
                     class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
                     tabindex="8"
                     >Contacter Nous</a
-                  >
-                  La Chouette Agence.
+                  ><br />
+                 
                 </p>
               </div>
             </div>
@@ -281,7 +272,7 @@
                 <h2>PORTFOLIO</h2>
                 <p>
                   Retrouvez ci-dessous quelques unes de nos réalisations. Ce
-                  sonr quelques exemples représentatifs de la polyvalence de nos
+                  sont quelques exemples représentatifs de la polyvalence de nos
                   créations de site internet.
                 </p>
               </div>
@@ -294,16 +285,17 @@
                   data-gallery-id="gallery-1"
                   data-caption="Refonte d'un site web pour un journal local"
                   data-frame="snapshot-lb"
+                  tabindex="9"
                   ><img
                     src="img/1.jpg"
                     alt="lyon agence web, travail de mise à jour du site web journal local"
                     class="img-responsive portfolio-thumb"
                 /></a>
                 <h3 class="mg-md text-center">
-                  Mise à jour d'un site web de journal local
+                  MISE À JOUR D'UN SITE WEB DE JOURNAL LOCAL
                 </h3>
                 <p class="text-center">
-                  Charte graphique et identité nouvelle du journal lyonnais.
+                  Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
                 </p>
               </div>
               <div class="col-sm-6">
@@ -313,18 +305,17 @@
                   data-gallery-id="gallery-1"
                   data-caption="Création d'un site web pour photographes"
                   data-frame="snapshot-lb"
+                  tabindex="10"
                   ><img
                     src="img/2.jpg"
                     class="img-responsive portfolio-thumb"
                     alt="studio graphisme et communication digitale à Lyon, réalisation orientée pour photographes"
                 /></a>
                 <h3 class="mg-md text-center">
-                  Réalisation d'un site web pour photographes
+                  CRÉATION D'UN SITE WEB POUR PHOTOGRAPHES
                 </h3>
                 <p class="text-center">
-                  Un plateforme entièrement pensée pour nos clients
-                  photographes, entirement conçu pour laisser libre court à
-                  leurs talents.
+                  Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
                 </p>
               </div>
             </section>
@@ -340,15 +331,13 @@
                   ><img
                     src="img/3.jpg"
                     class="img-responsive portfolio-thumb"
-                    alt="La Chouette Agence, communication web à Lyon, carnet de voyage et articles blog d'un aventurier moderne."
+                    alt="LCA, communication web à Lyon, carnet de voyage et articles blog d'un aventurier moderne."
                 /></a>
                 <h3 class="mg-md text-center">
-                  Outil dédié et pensé pour un voyageur
+                  CRÉATION D'UN SITE INTERNET POUR UN VOYAGEUR
                 </h3>
                 <p class="text-center">
-                  Conception et mise en valeur à l'aide de graphismes évolués
-                  pour le carnet de voyage et les articles du blog de cet
-                  aventurier moderne.
+                  Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
                 </p>
               </div>
               <div class="col-sm-6">
@@ -365,11 +354,10 @@
                     alt="LCA, votre concepteur site web, développement pour une agence de mariage de la région de Lyon."
                 /></a>
                 <h3 class="mg-md text-center">
-                  Conception d'un site pour une agence de mariage
+                  CONCEPTION D'UN SITE POUR UNE AGENCE DE MARIAGE
                 </h3>
                 <p class="text-center">
-                  Présentation détaillée des prestations de cette agence de la
-                  métropole lyonnaise.
+                  Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
                 </p>
               </div>
             </section>
@@ -383,8 +371,8 @@
           <div class="container bloc-lg">
             <div class="row">
               <h2 class="mg-md text-center tc-white">
-                Envie de concrétiser votre projet ? nous sommes à votre
-                disposition<br />Contactez notre équipe !
+                Prèt pour redonner vie à vos projets?
+                <br />Alors Contactez-Nous !
               </h2>
               <div class="col-sm-12 text-center">
                 <a
